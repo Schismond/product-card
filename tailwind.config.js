@@ -8,7 +8,7 @@ module.exports = {
       secondary: ['Fraunces', 'serif'],
       },
       backgroundImage: {
-        'img': "url('/images/image-product-desktop.jpg')",
+        'img': "url('images/image-product-desktop.jpg')",
       }
     }
   },
