@@ -872,7 +872,7 @@ video {
   }
 
   .md\:bg-img {
-    background-image: url('/images/image-product-desktop.jpg');
+    background-image: url('images/image-product-desktop.jpg');
   }
 
   .md\:text-4xl {
