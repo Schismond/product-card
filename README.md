@@ -19,8 +19,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Schismond/product-card/)
-- Live Site URL: [Add live site URL here](https://schismond.github.io/product-card/)
+- Solution URL: [gitub repo](https://github.com/Schismond/product-card/)
+- Live Site URL: [gitub pages](https://schismond.github.io/product-card/)
 
 ## My process
 
