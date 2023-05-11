@@ -539,36 +539,8 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.h-64 {
-  height: 16rem;
-}
-
-.h-72 {
-  height: 18rem;
-}
-
-.h-1\/3 {
-  height: 33.333333%;
-}
-
 .w-\[90\%\] {
   width: 90%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.max-w-\[16rem\] {
-  max-width: 16rem;
-}
-
-.max-w-\[90\%\] {
-  max-width: 90%;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -603,18 +575,9 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-b-lg {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
-}
-
-.rounded-r-lg {
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
 }
 
 .rounded-t-lg {
@@ -637,8 +600,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-img {
-  background-image: url('images/image-product-desktop.jpg');
+.bg-product {
+  background-image: url('/images/image-product-desktop.jpg');
 }
 
 .bg-cover {
@@ -651,16 +614,6 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.object-center {
-  -o-object-position: center;
-     object-position: center;
 }
 
 .p-6 {
@@ -677,12 +630,12 @@ video {
   padding-bottom: .7rem;
 }
 
-.font-primary {
-  font-family: Montserrat, sans-serif;
+.font-Fraunces {
+  font-family: Fraunces , Arial, sans-serif;
 }
 
-.font-secondary {
-  font-family: Fraunces, serif;
+.font-Montserrat {
+  font-family: Montserrat , Arial, sans-serif;
 }
 
 .text-2xl {
@@ -705,16 +658,8 @@ video {
   line-height: 1rem;
 }
 
-.font-black {
-  font-weight: 900;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.font-thin {
-  font-weight: 100;
 }
 
 .font-light {
@@ -737,19 +682,9 @@ video {
   letter-spacing: 0.025em;
 }
 
-.text-\[\#808080\] {
-  --tw-text-opacity: 1;
-  color: rgb(128 128 128 / var(--tw-text-opacity));
-}
-
 .text-emerald-700 {
   --tw-text-opacity: 1;
   color: rgb(4 120 87 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
@@ -757,18 +692,13 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.line-through {
-  text-decoration-line: line-through;
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@font-face {
-  font-family: 'Fraunces';
-
-  src: url('/Fraunces_9pt-Regular.ttf') format('truetype');
-
-  font-weight: 500;
-
-  font-style: normal;
+.line-through {
+  text-decoration-line: line-through;
 }
 
 .hover\:bg-emerald-950:hover {
@@ -776,27 +706,13 @@ video {
   background-color: rgb(2 44 34 / var(--tw-bg-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:w-auto {
-    width: auto;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
   }
 
-  .md\:grid {
-    display: grid;
-  }
-
   .md\:aspect-auto {
     aspect-ratio: auto;
-  }
-
-  .md\:h-full {
-    height: 100%;
   }
 
   .md\:h-screen {
@@ -809,34 +725,6 @@ video {
 
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:w-24 {
-    width: 6rem;
-  }
-
-  .md\:w-10 {
-    width: 2.5rem;
-  }
-
-  .md\:w-28 {
-    width: 7rem;
-  }
-
-  .md\:max-w-\[16rem\] {
-    max-width: 16rem;
-  }
-
-  .md\:flex-1 {
-    flex: 1 1 0%;
-  }
-
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
-  .md\:place-items-center {
-    place-items: center;
   }
 
   .md\:justify-center {
@@ -861,57 +749,8 @@ video {
     border-bottom-right-radius: 0.5rem;
   }
 
-  .md\:bg-black {
-    --tw-bg-opacity: 1;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  }
-
   .md\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
-  .md\:bg-img {
-    background-image: url('images/image-product-desktop.jpg');
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:w-96 {
-    width: 24rem;
-  }
-
-  .lg\:max-w-5xl {
-    max-width: 64rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:h-1\/3 {
-    height: 33.333333%;
-  }
-
-  .xl\:w-96 {
-    width: 24rem;
   }
 }

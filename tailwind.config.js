@@ -1,17 +1,17 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./*.html'],
   theme: {
     extend: {
-      fontFamily: {
-      primary: ['Montserrat', 'sans-serif'],
-      secondary: ['Fraunces', 'serif'],
-      },
       backgroundImage: {
-        'img': "url('images/image-product-desktop.jpg')",
+        'product': "url('/images/image-product-desktop.jpg')",
       }
-    }
+    },
+    fontFamily: {
+      'Montserrat': 'Montserrat , Arial, sans-serif',
+      'Fraunces': 'Fraunces , Arial, sans-serif',
+    },
   },
   plugins: [],
 }
-
