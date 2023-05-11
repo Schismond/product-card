@@ -49,4 +49,4 @@ As a web developer, I recently tried the Tailwind framework for the first time, 
 
 ### Useful resources
 
-- [Tailwindcss documentation](https://tailwindcss.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Tailwindcss documentation](https://tailwindcss.com) - This helped me to quickly find the informations I needed , it's quick and easy an efficient
