@@ -19,8 +19,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Schismond/product-card/)
-- Live Site URL: [Add live site URL here](https://schismond.github.io/product-card/)
+- Solution URL: [gitub repo](https://github.com/Schismond/product-card/)
+- Live Site URL: [gitub pages](https://schismond.github.io/product-card/)
 
 ## My process
 
@@ -49,4 +49,4 @@ As a web developer, I recently tried the Tailwind framework for the first time, 
 
 ### Useful resources
 
-- [Tailwindcss documentation](https://tailwindcss.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Tailwindcss documentation](https://tailwindcss.com) - This helped me to quickly find the informations I needed , it's quick and easy an efficient
