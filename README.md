@@ -20,7 +20,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - Solution URL: [gitub repo](https://github.com/Schismond/product-card/)
-- 
 - Live Site URL: [Netlify](https://simple-product-card-recreation.netlify.app)
 
 ## My process
